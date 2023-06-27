@@ -1,9 +1,10 @@
 function App() {
   return (
-    <div className="App">
-      <h1 className="">Hello everyone welcome to React</h1>
+    <div className="App flex justify-center">
+      <h1>Hello everyone welcome to React</h1>
+      <h2>Idhjsadiosio</h2>
     </div>
   );
 }
 
-export default App;
+export { App };

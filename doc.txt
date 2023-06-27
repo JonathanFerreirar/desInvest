@@ -1,20 +1,26 @@
-PROJETO
+PROJETO DesInvest (Descomplica Investimento)
 
-Ativos que iremos trabalhar  - (AÇÕES e FIIS)
+* TailWind Doc: https://tailwindcss.com/
+* Git-hub:      https://github.com/JonathanFerreirar/desInvest/blob/main/README.md
+* Jira:         https://mnwz.atlassian.net/jira/software/projects/DII/boards/8
+
+
+Ativos que iremos trabalhar  - (AÇÕES e FIIS "Fundo imobiliario")
 
 Projeto terá : Login page - Navbar Page - Home Page - Carteira page - Ativos em Carteira Page  - Confirma compra/venda Modal - Ativos Page - Creditos page
 
-Login Page - Onde o usuario terá opções de login,  cadastro e esqueci minha senha.
+Login Page - Onde o usuario terá opções de login, cadastro e esqueci minha senha.
 
-Navbar Page - Onde o usuario após logar poderá navegar entre os outras paginas.(deverá conter a logo em algum canto )
+Navbar Page - Onde o usuario após logar poderá navegar entre os outras paginas.(deverá conter a logo em algum canto).
 
-Home Page - Onde o usuario tera um grafico em forma de circulo indicando a porcentagem que ele possui nos ativos (Ações, FIIS) além disso será mostrado o valor total investido.
+Home Page - Onde o usuario tera um grafico em forma de circular indicando a porcentagem que ele possui nos ativos (Ações, FIIS) além disso será mostrado o valor total investido.
 
-Carteira Page - Onde irá mostrar os ativos do usuario também terá o grafico e descendo o ativo, com a quantidade total investida por ativa. (nome do ativo, preço medio e valor total.)
+Carteira Page - Onde irá mostrar os ativos do usuario também terá o grafico e descendo o ativo, com a quantidade total investida por ativo. (nome do ativo, preço medio e valor total.)
 
-Ative em Carteira Page - Esse opção irá aparecer quando clicar no ativo dentro de Carteira Page, deve conter (nome do ativo, preço medio e valor total) e também opção de compra e venda do respectivo ativo.
+Ativo em Carteira Page - Esse opção irá aparecer quando clicar no ativo dentro de Carteira Page, deve conter (nome do ativo, preço medio e valor total) e também opção de compra e venda do respectivo ativo.
 
 Ativo Page - Opção onde o úsuario poderá ver os ativos que existem disponives para compra, também podera realizar filtro por preço, por nome e por classificação de ativo (ações - fiis).
+NO API(Dados) - 1.3 random-10
 
 Confirma compra/venda Modal - Opção deverá aparecer quando o usuario cliclar em comprar ou vender ativo dentro dentro de Carteira Page e também quando o usuario clicar em comprar ativo dentro de Ativo Page, Ela deve conter o nome do ativo, preço atual, preço total conforme a quantidade de ativo  e quantidade a ser comprada/vendida, butão para confirma/cancelar o evento.
 
@@ -23,11 +29,39 @@ Creditos page - Conterá os créditos de todos que participaram do projeto, ter�
 
 TEMAS 26/06/2023 - HÁ SER ABORDADO
 
-* TailWind
-* Jira
-* Git
-* Como vai ser
-* API (Back-end)
-* React HTML e CSS
-* HTML dicas de pensamento para upgrade
- 
+* Como vai ser - Finish
+
+* Jira (Marcos) - Finish
+
+* React HTML e CSS - Finish
+
+* Todo o tel HTML precisa está emglobado por uma tag! 
+* class === className
+* Tag img precisa ser selfCloser  <img src="" alt="" /> |  NOP <img src="" alt="" >
+
+* TailWind -Finish
+
+* HTML dicas de pensamento para upgrade - Finish
+
+* API (Back-end) -Finish
+
+* Git - 
+
+* Como fazer um commit da maneira correta -
+
+
+
+
+
+
+*DICAS ----------------------------------------------------------- *
+
+*COMO INICIAR O PROJETO ?
+
+npm start
+
+* COMO INICIAR O SERVIDOR ?
+
+npm run server
+
+
