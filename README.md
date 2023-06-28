@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+PROJETO DesInvest (Descomplica Investimento)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Jira: https://mnwz.atlassian.net/jira/software/projects/DII/boards/8
 
-## Available Scripts
+Projeto terá : Login page - Navbar Page - Home Page - Carteira page - Ativos em Carteira Page - Confirma compra/venda Modal - Ativos Page - Creditos page
 
-In the project directory, you can run:
+Login Page - Onde o usuario terá opções de login, cadastro e (esqueci minha senha).
 
-### `npm start`
+Navbar Page - Onde o usuario após logar poderá navegar entre os outras paginas.(deverá conter a logo em algum canto).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Home Page - Onde o usuario tera um grafico em forma de circular indicando a porcentagem que ele possui nos ativos (Ações, FIIS) além disso será mostrado o valor total investido. - Saldo em Carteira.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Carteira Page - Onde irá mostrar os ativos do usuario também terá o grafico e descendo o ativo, com a quantidade total investida por ativo. (nome do ativo, preço medio e valor total.)
 
-### `npm test`
+Ativo em Carteira Page - Esse opção irá aparecer quando clicar no ativo dentro de Carteira Page, deve conter (nome do ativo, preço medio e valor total- qnt do ativo e também opção de compra e venda do respectivo ativo).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ativo Page - Opção onde o úsuario poderá ver os ativos que existem disponives para compra, também podera realizar filtro por preço, por nome e por classificação de ativo (ações - fiis).
+NO API(Dados) - 1.3 random-10
 
-### `npm run build`
+Confirma compra/venda Modal - Opção deverá aparecer quando o usuario cliclar em comprar ou vender ativo dentro dentro de Carteira Page e também quando o usuario clicar em comprar ativo dentro de Ativo Page, Ela deve conter o nome do ativo, preço atual, preço total conforme a quantidade de ativo e quantidade a ser comprada/vendida, butão para confirma/cancelar o evento.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Creditos page - Conterá os créditos de todos que participaram do projeto, terá foto, link para o github, link para o linkedin, nome e função no projeto - descriçao.
