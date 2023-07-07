@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer utilities{
     :root{
 
@@ -109,3 +110,4 @@
 
     }
    }
+
