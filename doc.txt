@@ -43,3 +43,12 @@ npm start
 npm run server
 
 
+
+*Vamos aborda :
+
+Diferença de component e page  ***
+Como se cria um component **
+Como criar variaveis roots para o css 
+Como usar variaveis roots css
+Como criar rotas para testar page ou component **
+Git flow que iremos aborda, sistema de branchs e como vai funcionar.
