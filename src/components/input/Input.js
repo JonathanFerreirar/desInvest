@@ -4,6 +4,8 @@ import React from 'react'
 
 export const Input = () => {
   return (
-    <div>teste</div>
+    <div>
+      <p>Tipografia teste</p>
+      </div>
   )
 }
