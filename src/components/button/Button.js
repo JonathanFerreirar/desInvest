@@ -4,7 +4,7 @@ import './Button.css';
 export const Button = () => {
   return (
     <div>
-      <button>Botão</button>
+      <button className="bg-[#FF7C04] py-[15px] px-[18px] text-[#FFF] rounded-[5px]">Botão</button>
     </div>
   );
 };
