@@ -1,9 +1,7 @@
-import './Input.css'
+import "./Input.css";
 
-import React from 'react'
+import React from "react";
 
 export const Input = () => {
-  return (
-    <div>teste</div>
-  )
-}
+  return <input className="border" />;
+};
