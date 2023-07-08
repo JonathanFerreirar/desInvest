@@ -1,0 +1,11 @@
+button{
+  border: 1.5px solid var(--primary-color);
+}
+
+button:hover{
+  background-color: white;
+  color: #FF7C04;
+
+  border: 1.5px solid #FF7C04;
+  outline: none;
+}

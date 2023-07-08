@@ -5,12 +5,16 @@ import { Button } from "../components/button/Button";
 
 export const Home = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-[20px] p-[5px]">
       <h1>Odsadiops</h1>
-      <Input />
-      <Input />
-      <Button>OK</Button>
-      <Button>Cancelar</Button>
+      <div className="inputFields w-fit flex flex-col gap-[15px]">
+        <Input />
+        <Input />
+      </div>
+      <div className="buttons flex gap-[15px]">
+        <Button>Entrar</Button>
+        <Button>Cadastre-se</Button>
+      </div>
     </div>
   );
 };
