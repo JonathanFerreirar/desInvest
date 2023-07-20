@@ -9,13 +9,7 @@ function App() {
 
   return (
     <div className="flex flex-col justify-center items-center gap-5 mt-5 flex-wrap">
-      {/*To explain how to use props  */}
-      <Input />
-
-      {/*First thing to explain is above*/}
-
-      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap hidden">
-        {/*-> Don't forget that you put a hidden class here */}
+      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap">
         <Button primary textDefault>
           Default
         </Button>
