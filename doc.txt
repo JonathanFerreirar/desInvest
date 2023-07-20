@@ -34,21 +34,76 @@ Creditos page - Conterá os créditos de todos que participaram do projeto, ter�
 
 *DICAS ----------------------------------------------------------- *
 
-*COMO INICIAR O PROJETO ?
+*How start the project ?
 
 npm start
 
-* COMO INICIAR O SERVIDOR ?
+*How start the server ?
 
 npm run server
 
 
+How to use button component
 
-*Vamos aborda :
 
-Diferença de component e page  ***
-Como se cria um component **
-Como criar variaveis roots para o css 
-Como usar variaveis roots css
-Como criar rotas para testar page ou component **
-Git flow que iremos aborda, sistema de branchs e como vai funcionar.
+    To use the bell do this import 
+
+    import { PiBellRingingBold } from "react-icons/pi";
+    
+    
+      Default
+
+    <Button  primary textDefault >Default</Button>
+
+    <Button primary textDefault >+ Left icon</Button>
+
+    <Button  primary textDefault >Right icon +</Button>
+
+    <Button  primary textDefault ><PiBellRingingBold /></Button>
+
+    <Button outline textDefault  >Default</Button>
+
+    <Button outline textDefault  >+ Left icon</Button>
+
+    <Button  outline textDefault  >Right icon +</Button>
+
+    <Button  outline textDefault ><PiBellRingingBold /></Button>
+
+      Medium
+
+    <Button  primary textThin >Default</Button>
+
+    <Button primary textThin >+ Left icon</Button>
+
+    <Button  primary textThin >Right icon +</Button>
+
+    <Button  primary textThin ><PiBellRingingBold /></Button> 
+
+    <Button outline textThin  >Default</Button>
+
+    <Button outline textThin  >+ Left icon</Button>
+
+    <Button  outline textThin  >Right icon +</Button>
+
+    <Button  outline textThin ><PiBellRingingBold /></Button>
+    
+      Small 
+
+    <Button  primary textThin small>Default</Button>
+
+    <Button primary textThin small >+ Left icon</Button>
+
+    <Button  primary textThin small>Right icon +</Button>
+
+    <Button  primary textThin ><PiBellRingingBold /></Button>
+
+    <Button outline textThin  small>Default</Button>
+
+    <Button outline textThin  small>+ Left icon</Button>
+
+    <Button  outline textThin  small>Right icon +</Button>
+
+    <Button  outline textThin ><PiBellRingingBold /></Button>
+
+
+

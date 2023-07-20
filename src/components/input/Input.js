@@ -2,6 +2,6 @@ import "./Input.css";
 
 import React from "react";
 
-export const Input = () => {
-  return <input className="border"/>;
+export const Input = ({ nome }) => {
+  return <input className={`border bg-button ${nome}`} />;
 };
