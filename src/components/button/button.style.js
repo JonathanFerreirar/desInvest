@@ -1,5 +1,3 @@
-const nome = "Jonathan";
-
 export const buttonStyle = {
   regularClass:
     "flex items-center px-3 text-center py-1.5 border h-[37px] font-default font-button rounded-default flex justify-center items-center",
