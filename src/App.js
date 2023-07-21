@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="flex flex-col justify-center items-center gap-5 mt-5 flex-wrap">
       <div className="flex justify-center items-center gap-5 mt-5 flex-wrap">
-        <Button primary textDefault>
+        <Button primary textThin>
           Default
         </Button>
         <Button primary textDefault>
@@ -35,7 +35,7 @@ function App() {
           <PiBellRingingBold />
         </Button>
       </div>
-      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap hidden">
+      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap ">
         {/*-> Don't forget that you put a hidden class here */}
         <Button primary textThin>
           Default
@@ -62,7 +62,7 @@ function App() {
           <PiBellRingingBold />
         </Button>
       </div>
-      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap hidden">
+      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap ">
         {/*-> Don't forget that you put a hidden class here */}
         <Button primary textThin small>
           Default
