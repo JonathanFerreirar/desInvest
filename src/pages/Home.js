@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Input } from "../components/input/Input";
 import { Button } from "../components/button/Button";
 
@@ -7,7 +5,7 @@ export const Home = () => {
   return (
     <div className="flex flex-col gap-[20px] p-[5px]">
       <h1>Odsadiops</h1>
-      <div className="inputFields w-fit flex flex-col gap-[15px]">
+      <div className="inputFields flex w-fit flex-col gap-[15px]">
         <Input />
         <Input />
       </div>

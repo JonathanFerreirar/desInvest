@@ -1,6 +1,5 @@
 import { Button } from "./components/button/Button";
 import { PiBellRingingBold } from "react-icons/pi";
-import { Input } from "./components/input/Input";
 
 function App() {
   const handleFunction = () => {
@@ -8,8 +7,8 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center gap-5 mt-5 flex-wrap">
-      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap">
+    <div className="mt-5 flex flex-col flex-wrap items-center justify-center gap-5">
+      <div className="mt-5 flex flex-wrap items-center justify-center gap-5">
         <Button primary textThin>
           Default
         </Button>
@@ -35,7 +34,7 @@ function App() {
           <PiBellRingingBold />
         </Button>
       </div>
-      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap ">
+      <div className="mt-5 flex flex-wrap items-center justify-center gap-5 ">
         {/*-> Don't forget that you put a hidden class here */}
         <Button primary textThin>
           Default
@@ -62,7 +61,7 @@ function App() {
           <PiBellRingingBold />
         </Button>
       </div>
-      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap ">
+      <div className="mt-5 flex flex-wrap items-center justify-center gap-5 ">
         {/*-> Don't forget that you put a hidden class here */}
         <Button primary textThin small>
           Default
@@ -85,11 +84,11 @@ function App() {
         </Button>
       </div>
 
-      {/*    
-Buttons with functions inside 
+      {/*
+Buttons with functions inside
 */}
 
-      <div className="flex justify-center items-center gap-5 mt-5 flex-wrap hidden">
+      <div className="mt-5 flex hidden flex-wrap items-center justify-center gap-5">
         {/*-> Don't forget that you put a hidden class here */}
         <Button
           outline
