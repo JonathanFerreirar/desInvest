@@ -4,8 +4,20 @@ module.exports = {
   theme: {
     extend: {
       textColor: {
-        primary: "#3490dc",
-        danger: "#e3342f",
+        button: "#FF7C04",
+      },
+      fontWeight: {
+        button: 500,
+        thin: 400,
+      },
+      borderRadius: {
+        default: "5px",
+      },
+      backgroundColor: {
+        button: "#FF7C04",
+      },
+      fontFamily: {
+        default: ["Poppins", "sans-serif"],
       },
     },
   },
