@@ -1,6 +1,5 @@
 import { Button } from "./components/button/Button";
 import { PiBellRingingBold } from "react-icons/pi";
-import { Input } from "./components/input/Input";
 
 function App() {
   const handleFunction = () => {

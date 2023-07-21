@@ -1,11 +1,9 @@
-import React from "react";
-
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 import { App } from "./App";
 import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
-import { Main } from "./laddingpage/sections/Main";
+import { Main } from "./laddingpage/main/Main";
 
 const Router = () => {
   return (
