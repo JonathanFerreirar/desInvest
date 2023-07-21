@@ -86,6 +86,9 @@ module.exports = {
       fontFamily: {
         default: ["Poppins", "sans-serif"],
       },
+      boxShadow: {
+        button: "4px 4px 12px rgba(0, 0, 0, 0.10)",
+      },
     },
   },
   plugins: [],

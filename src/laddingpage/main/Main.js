@@ -18,7 +18,7 @@ export function Main() {
         </p>
         <div className="flex gap-6 md:gap-14">
           <Button primary>Explore agora !</Button>
-          <Button>
+          <Button shadow>
             Simular agora <FaRocket className="ml-2 block" />
           </Button>
         </div>

@@ -7,6 +7,7 @@ export const Button = ({
   small,
   textDefault,
   textThin,
+  shadow,
   ...rest
 }) => {
   const classes = className(
@@ -18,6 +19,7 @@ export const Button = ({
       "h-[32px]": small,
       "text-[16px]": textDefault,
       "text-[12px]": textThin,
+      "shadow-button": shadow,
     },
   );
 
