@@ -20,7 +20,7 @@ export function Main() {
           <Button primary textThin>
             Explore agora !
           </Button>
-          <Button shadow textThin>
+          <Button shadow>
             Simular agora <FaRocket className="ml-2 block" />
           </Button>
         </div>
