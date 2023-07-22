@@ -6,5 +6,8 @@
   },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.rulers": [80]
+  "editor.rulers": [80],
+  "tailwindCSS.experimental.classRegex": [
+    ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
 }
