@@ -1,6 +1,7 @@
 import { Button } from "../../components/button/Button";
 import { FaRocket } from "react-icons/fa";
 import imagePlaceholder from "../../assets/placeholder-image.svg";
+import { Link } from "react-router-dom";
 
 export function Main() {
   return (
@@ -17,11 +18,13 @@ export function Main() {
           aprender e investir com liberdade.
         </p>
         <div className="flex gap-6 md:gap-14">
-          <Button primary textThin>
-            Explore agora !
+          <Button primary textThin asChild>
+            <Link to="/login">Explore agora !</Link>
           </Button>
-          <Button shadow>
-            Simular agora <FaRocket className="ml-2 block" />
+          <Button shadow asChild className="gap-2">
+            <Link to="/#simulator">
+              Simular agora <FaRocket />
+            </Link>
           </Button>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import { cn } from "../../lib/util";
+import { Slot } from "@radix-ui/react-slot";
 
 export const Button = ({
   children,
@@ -8,8 +9,11 @@ export const Button = ({
   textThin,
   shadow,
   className,
+  asChild,
   ...rest
 }) => {
+  const Comp = asChild ? Slot : "button";
+
   const classes = cn(
     "px-3 text-center py-1.5 text-[12px] sm:text-[16px] border h-[37px] font-default font-button rounded-default flex justify-center items-center ease-in duration-200",
     {
@@ -23,8 +27,8 @@ export const Button = ({
   );
 
   return (
-    <button className={classes} {...rest}>
+    <Comp className={classes} {...rest}>
       {children}
-    </button>
+    </Comp>
   );
 };
