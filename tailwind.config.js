@@ -87,9 +87,19 @@ module.exports = {
         default: ["Poppins", "sans-serif"],
       },
       boxShadow: {
-        button: "4px 4px 12px rgba(0, 0, 0, 0.10)",
+        shadow1: "2px 2px 6px 0px rgba(164, 165, 172, 0.2)",
+        shadow2: "4px 4px 12px 0px rgba(101, 104, 114, 0.2)",
+        shadow3: "8px 8px 28px 0px rgba(52, 58, 72, 0.2)",
+        shadow4: "12px 12px 28px 0px rgba(77, 81, 92, 0.2)",
+        shadow5: "14px 14px 32px 0px rgba(52, 58, 72, 0.2)",
+        shadow6: "14px 14px 38px 0px rgba(24, 24, 24, 0.2)",
+        shadowbtn: "4px 4px 12px rgba(0, 0, 0, 0.10)",
+        shadownavBar:
+          "rgba(0, 0, 0, 0.1) 0px 4px 15px -8px, rgba(0, 0, 0, 0.04) 0px 1px 10px -5px;",
       },
     },
   },
   plugins: [],
 };
+
+//button: "4px 4px 12px rgba(0, 0, 0, 0.10)",
